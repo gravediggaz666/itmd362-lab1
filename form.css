@@ -1,25 +1,43 @@
-@media screen and (min-width: 768px) {
-    .user-form {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 40px;
-    }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
 
-    .form-group {
-        margin-bottom: 30px;
-    }
+.user-form {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
 
-    label {
-        font-size: 18px;
-    }
+.form-group {
+    margin-bottom: 20px;
+}
 
-    input[type="email"],
-    input[type="tel"],
-    input[type="date"] {
-        font-size: 20px;
-    }
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
 
-    button {
-        font-size: 24px;
-    }
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
 }
