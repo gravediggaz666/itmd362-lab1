@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+    .user-form {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 40px;
+    }
+
+    .form-group {
+        margin-bottom: 30px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    input[type="email"],
+    input[type="tel"],
+    input[type="date"] {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 24px;
+    }
+}
